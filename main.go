@@ -9,7 +9,7 @@ import (
 
 var Port = "8080"
 
-func EerHandler(err error) {
+func errHandler(err error) {
 	if err != nil {
 		panic(err)
 	}
